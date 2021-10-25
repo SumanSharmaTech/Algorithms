@@ -6,7 +6,7 @@ int main() {
   printf("Enter a positive integer: ");
   scanf("%d", &n);
 
-  for (i = 2; i <= n / 2; ++i) {
+  for (i = 2; i <= n / 2+1; ++i) {
     // condition for non-prime
     if (n % i == 0) {
       flag = 1;
